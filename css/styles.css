@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper {
+    padding: 0px 40px;
+}
+
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f0f3fa;
+    text-align: center;
+}
+
+.card::before {
+    content: "";
+    height: 4px;
+    display: block;
+    background: red;
+}
+
